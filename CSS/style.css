@@ -129,6 +129,101 @@ body {
         transform: scale(1.2);
     }
 
+    form {
+        margin: 100px 10px;
+        padding: 20px 25px;
+        box-shadow: 0 0 20px black;
+        border-radius: 20px;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+    .input-grupo {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    form h2 {
+        color: #fff;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+
+    form label {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    input,
+    textarea {
+        color: #fff;
+        margin-bottom: 30px;
+        background-color: #ededed;
+        width: 100%;
+        
+    }
+
+    input#name {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+        
+    }
+    input#phone {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+    input#email {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+    textarea#mensaje {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+
+    .form-text {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-text a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+
+    form .btn {
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        background-color: grey;
+        transition: 2s;
+    }
+
+    form .btn:hover{
+        background-color: red;
+        color: #fff;
+    }
+
+
     /* FOOTER */
     .pie-pagina {
         background-color: #0f0c29;
@@ -400,6 +495,100 @@ body {
         transform: scale(1.2);
     }
 
+    form {
+        margin: 100px 20px;
+        padding: 20px 25px;
+        box-shadow: 0 0 20px black;
+        border-radius: 20px;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+    .input-grupo {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    form h2 {
+        color: #fff;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+
+    form label {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    input,
+    textarea {
+        color: #fff;
+        margin-bottom: 30px;
+        background-color: #ededed;
+        width: 100%;
+        
+    }
+
+    input#name {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+        
+    }
+    input#phone {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+    input#email {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+    textarea#mensaje {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+
+    .form-text {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-text a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+
+    form .btn {
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        background-color: grey;
+        transition: 2s;
+    }
+
+    form .btn:hover{
+        background-color: red;
+        color: #fff;
+    }
+
     /* FOOTER */
     .pie-pagina {
         background-color: #0f0c29;
@@ -669,6 +858,101 @@ body {
         transform: scale(1.2);
     }
 
+    form {
+        margin: 100px auto;
+        padding: 20px 25px;
+        box-shadow: 0 0 20px black;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+        width: 500px;
+        height: auto;
+    }
+
+    .input-grupo {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    form h2 {
+        color: #fff;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+
+    form label {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    input,
+    textarea {
+        color: #fff;
+        margin-bottom: 30px;
+        background-color: #ededed;
+        width: 100%;
+        
+    }
+
+    input#name {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+        
+    }
+    input#phone {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+    input#email {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+    textarea#mensaje {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+
+    .form-text {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-text a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+
+    form .btn {
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        background-color: grey;
+        transition: 1s;
+    }
+
+    form .btn:hover{
+        background-color: red;
+        color: #fff;
+    }
+
     /* FOOTER */
     .pie-pagina {
         background-color: #0f0c29;
@@ -923,6 +1207,101 @@ body {
 
     main .galeria img:hover {
         transform: scale(1.2);
+    }
+
+    form {
+        margin: 100px auto;
+        padding: 20px 25px;
+        box-shadow: 0 0 20px black;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+        width: 600px;
+        height: auto;
+    }
+
+    .input-grupo {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    form h2 {
+        color: #fff;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+
+    form label {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    input,
+    textarea {
+        color: #fff;
+        margin-bottom: 30px;
+        background-color: #ededed;
+        width: 100%;
+        
+    }
+
+    input#name {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+        
+    }
+    input#phone {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+    input#email {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+    textarea#mensaje {
+        background: inherit;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid red;
+        outline: none;
+    }
+
+    .form-text {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form-text a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+
+    form .btn {
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        background-color: grey;
+        transition: 1s;
+    }
+
+    form .btn:hover{
+        background-color: red;
+        color: #fff;
     }
 
     .pie-pagina {
